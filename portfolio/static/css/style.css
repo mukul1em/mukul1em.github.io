@@ -1,0 +1,181 @@
+body{
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather Sans', sans-serif;}
+
+h1{
+   
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+    margin: 50px auto 0 auto;
+    color: #66BFBF;
+}
+h2{
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 2.2rem;
+    color: #66BFBF;
+    font-weight: normal;
+
+
+}
+h3,h5{
+    font-family: 'Merriweather Sans', sans-serif;
+    color:#11999E;
+
+}
+
+.top-container{
+    background-color: #E4F9F5;
+    position: relative;
+    padding-top: 100px;
+}
+
+.middle-container {
+    padding-bottom: 0%;
+    }
+.bottom-container{
+    background-color: #E4F9F5;
+    padding: 0%;
+  
+}
+
+.bottom-cloud{
+    position:absolute;
+    left:200 px;
+    bottom: 300px;
+}
+.top-cloud{
+    position:absolute;
+    right: 400px;
+    top: 50px;
+}
+
+a{
+    font-family: 'Merriweather Sans', sans-serif;
+    color: #11999E;
+
+}
+
+.skill-row{
+    width: 50%;
+    margin:150px auto;
+    text-align: left;
+    line-height: 2;
+
+}
+
+.data-science{
+    width: 25%;
+    height: 25%;
+    float: left;
+    
+}
+.data-science:hover{
+    opacity: 1.2;
+    transform: scale(1.03);
+}
+
+
+
+.AI{
+    width: 25%;
+    height: 25%;
+    float: left;
+    margin:10px 10px 0 0;
+    margin-left: 30px;
+    display: inline-block;
+
+
+}
+.AI:hover{
+    opacity: 1.2;
+    transform: scale(1.03);
+}
+
+
+.web-dev{
+    width: 25%;
+    height: 25%;
+    float: left;
+    margin-right: 30px;
+
+
+}
+.web-dev:hover{
+    opacity: 1.2;
+    transform: scale(1.03);
+}
+
+
+
+
+
+.btn{
+    background-color: #11999E;
+    color:white;
+    text-decoration: none;
+    padding:10px 30px 10px 30px;
+    border-radius: 200px;
+    border: 1px solid #11999E;
+
+}
+
+.btn:hover,
+.btn:active{
+    background-color: #ffffff;
+    border-color:#11999E ;
+    color: black;
+}
+
+
+img:hover{
+    opacity: 1;
+    transform: scale(1.03);
+}
+.data-science{
+    margin-right: 30px;;
+}
+
+.skill-list{
+    display: inline-block;
+    margin-left: 20px;
+
+}
+
+.ai{
+    margin-left: 100px;
+}
+.footer-link{
+    padding: 0 10px;
+}
+.fa {
+    padding: 10px;
+    font-size: 50px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+    border-radius: 10px;
+    
+  }
+  .fa-facebook {
+    background: #007bb5;
+    color: white;
+    border-radius: 10px;
+    
+  }
+  .fa:hover {
+    opacity: 0.7;
+}
+hr{
+    border-style: dotted none none ;
+    border-color: grey;
+    border-width: 5px;
+    height:0px ;
+    width: 10%;
+
+}
